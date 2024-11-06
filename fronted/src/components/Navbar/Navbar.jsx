@@ -5,7 +5,7 @@ import { useState } from "react";
 const Navbar = () => {
 
   const [menu, setMenu] = useState("home");
-  console.log(menu)
+  
   return (
     <div className="navbar">
       <img src={assets.logo} className="logo" alt="" />
