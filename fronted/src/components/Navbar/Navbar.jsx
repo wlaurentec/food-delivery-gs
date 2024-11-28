@@ -6,7 +6,6 @@ const Navbar = () => {
 
   const [menu, setMenu] = useState("home")
 
-
   return (
     <div className="navbar">
       <img src={assets.logo} className="logo" alt="" />
