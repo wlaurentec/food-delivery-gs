@@ -26,12 +26,11 @@ const StoreContextProvider = (props) => {
       }
     }
     return totalAmount;
-  }
+  };
 
   useEffect(() => {
     console.log(cartItems);
   }, [cartItems]);
-  
 
   const contextValue = {
     food_list,
@@ -39,7 +38,7 @@ const StoreContextProvider = (props) => {
     setCartItems,
     addToCart,
     removeFromCart,
-    getTotalCartAmount
+    getTotalCartAmount,
   };
 
   return (
