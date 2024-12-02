@@ -26,7 +26,6 @@ const List = ( { url}) => {
     }
   }
 
-
   useEffect(() => {
     fetchList()
   }, [])
